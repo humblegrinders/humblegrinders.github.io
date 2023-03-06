@@ -1,0 +1,302 @@
+body {
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	background-color: #F5F5F7;
+	font-size: 14px;
+    color: #000000;
+    display: inline-block;
+    width: 100%;
+    font-weight: 300;
+}
+
+body, p, h1, h2, h3, h4, h5, a, ol, li, pre, header {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 300;
+}
+
+
+h2 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 8px;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: 200;
+	padding-top: 16px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 22px;
+	color: #808080;
+	font-weight: 300;
+	padding-top: 8px;
+}
+
+pre {
+	background-color: #ffffff;
+	border: 1px solid #E9E9F0;
+	border-radius: 3px;
+	padding: 24px;
+	white-space: pre-wrap;
+	line-height: 1.4;
+	margin: 16px 0;
+}
+
+main {
+	margin: 0 auto;
+	width: 960px;
+	padding: 72px 24px 0 24px;
+}
+
+footer {
+	border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.05);
+	padding: 24px 0 40px;
+	display: inline-block;
+	margin-top: 24px;
+	width: 100%;
+}
+
+header {
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+    height: 72px;
+    z-index: 10000;
+}
+
+header nav, footer nav {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+a.button, a.button:visited {
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	text-transform: uppercase;
+	font-weight:600;
+	background-color: #009CFF;
+	margin: 8px 0;
+	padding: 10px 12px 9px 12px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px;
+}
+
+a.button:hover {
+	background-color: #008EE6;
+}
+
+a.button:active {
+	background-color: #007DCD;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+}
+
+a.text-link {
+	color: #009CFF;
+	text-decoration: none;
+}
+
+a.text-link:hover {
+	color: #007DCD;
+	border-bottom: 1px solid #007DCD;
+}
+
+.footer-nav a, .footer-nav:link a, .footer-nav:visited a {
+	display: block;
+	padding: 8px 24px;
+	color: #888888;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.footer-nav:hover a, .footer-nav:active a {
+	color: #009CFF;
+}
+
+.footer-hello {
+	float: left;
+	display: inline-block;
+	font-size: 16px;
+	padding-right: 24px;
+}
+
+/* ------ Main Page ------ */
+
+section#android {
+	margin-top: 56px;
+	min-height: 500px;
+}
+
+nav#sections ol {
+	list-style: none;
+	padding: 0;
+}
+
+nav#sections li {
+	display: inline-block;
+}
+
+ol.offerings li {
+	background: white;
+	border: 1px solid #EBEBF0;
+	border-radius: 3px;
+	box-shadow: 0px 1px 3px 0px rgba(235,235,240,1);
+	padding: 32px 32px 0px 32px;
+	width: 405px;
+	min-height: 160px;
+	margin-top: 20px;
+}
+
+nav > ol {
+	list-style: none;
+	padding: 0;
+}
+
+header img {
+	padding: 22px 0;
+}
+
+.header-img {
+	height: 180px;
+	width: 150px;
+	float: right;
+	display: inline-block;
+	padding-top: 24px;
+}
+
+.hello-logo:hover {
+	opacity: .7;
+}
+
+.github-nav {
+	float: right;
+	padding-right: 24px;
+	opacity: .7;
+}
+
+.github-nav:hover {
+	opacity: 1;
+}
+
+.card-icon {
+	padding: 24px 24px 24px 0;
+	opacity: .7;
+	float: left;
+}
+
+.card-icon:hover {
+	opacity: 1;
+}
+
+ol.offerings {
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+/*	align-items: flex-start;*/
+	justify-content: space-between;
+}
+
+.join-us-links {
+	padding: 16px 0 24px;
+}
+
+.join-us-links a {
+	padding-right: 24px;
+}
+
+.join-us-links a:hover {
+	border-bottom: none;
+}
+
+a.project-title , a.project-title:visited {
+	color: inherit;
+}
+
+a.project-title:hover {
+	color: rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+/* ------ Article Page ------ */
+
+li {
+	float: left;
+}
+
+#project-header {
+	background-color: #F9F9FA;
+	width: 100%;
+	border-bottom: 1px solid #E9E9F0;
+}
+
+.page-title.go99-title {
+	font: italic 600 32px "Avenir Next Condensed", sans-serif;
+}
+.go99-accent {
+	color: #AD2929;
+}
+
+.page-nav a, .page-nav:link a, .page-nav:visited a {
+	display: block;
+	padding: 0 24px 0 24px;
+	color: #999999;
+	font-size: 16px;
+	text-decoration: none;
+	padding-bottom: 16px;
+}
+
+.page-nav:hover a, .page-nav:active a {
+	color: #009CFF;
+	box-shadow: inset 0px -1px 0px 0px #009CFF;
+}
+
+#in-page {
+	padding-top: 72px;
+	display: inline-block;
+}
+
+#overview {
+	display: inline-block;
+}
+
+#project-intro {
+	padding-top: 48px;
+	display: inline-block;
+}
+
+#examples, #download, #contributing, #license {
+	padding-top: 56px;
+}
+
+.page-description {
+	font-size: 16px;
+	font-weight: 300;
+	color: #808080;
+	padding-top: 8px;
+}
+
